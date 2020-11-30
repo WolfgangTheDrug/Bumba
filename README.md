@@ -1,3 +1,20 @@
+# Technologies used
+    - jquery
+    - bootstrap
+    - react-fade-in
+    - react-lottie
+    - react-loading
+    - Sketchpad
+
+## Icons and logos
+
+Icons and logos were made using [Sketchpad](https://sketch.io/sketchpad/).
+
+## Loading screen
+
+The loading screen was based on [Dan Halperin's tutorial](https://medium.com/front-end-weekly/react-loading-screen-tactics-improving-user-experience-9452f183c00b).
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

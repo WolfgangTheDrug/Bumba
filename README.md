@@ -5,15 +5,21 @@
     - react-lottie
     - react-loading
     - Sketchpad
+    - babel
+    - styled-components
 
 ## Icons and logos
 
-Icons and logos were made using [Sketchpad](https://sketch.io/sketchpad/).
+Logos were made using [Sketchpad](https://sketch.io/sketchpad/).
 
 ## Loading screen
 
 The loading screen was based on [Dan Halperin's tutorial](https://medium.com/front-end-weekly/react-loading-screen-tactics-improving-user-experience-9452f183c00b).
 
+## Whole styling
+
+The styling was made mainly using bootstrap.
+Also we used [styled-components](https://styled-components.com/) supported by [babel-plugin-styled-components](https://github.com/styled-components/babel-plugin-styled-components) in order to easily access gorgeous [react-animations](https://www.npmjs.com/package/react-animations) package.
 
 # Getting Started with Create React App
 

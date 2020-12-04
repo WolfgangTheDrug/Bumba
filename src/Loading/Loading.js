@@ -24,9 +24,9 @@ export default class Loading extends React.Component {
     return (
       <div>
         {!this.state.done ? (
-          <ReactLoading type={"bars"} color={"white"} />
+            <ReactLoading type={"bars"} color={"white"} />
         ) : (
-          <h1>hello world</h1>
+            <h1>bumba</h1>
         )}
       </div>
     );

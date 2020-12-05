@@ -10,7 +10,7 @@ const RubberP = styled.p`
     animation: 1s ${ rubberAnimation };
 `;
 
-let count = "forage";
+let count = "forage"; // do dokończenia
 let el;
 
 if(count === "flounder") {

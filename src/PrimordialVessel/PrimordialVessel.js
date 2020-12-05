@@ -1,6 +1,8 @@
 import styled, { keyframes } from 'styled-components';
 import { rubberBand } from 'react-animations';
-import Fruit from "../Fruit/Fruit.js"
+import FlounderCard from "../UbiquitousCard/DistinctCards/FlounderCard.js";
+import ForageCard from "../UbiquitousCard/DistinctCards/ForageCard.js";
+import SuccesfullInquiryCard from "../UbiquitousCard/DistinctCards/SuccesfullInquiryCard.js";
 
 const rubberAnimation = keyframes`${rubberBand}`;
 
@@ -17,9 +19,13 @@ function PrimordialVessel() {
                 <small> i czuję się bomba! </small>
             </h1>
         </header>
+
         <section className="p-2 flex-fill align-self-stretch">
-            <Fruit name="🍎"/>
+            <FlounderCard/>
+            <ForageCard/>
+            <SuccesfullInquiryCard/>
         </section>
+
         <footer>
             <p className="lead p-2 mt-auto align-self-end">
                 designed by &copy; 2020 - projekcik bumba

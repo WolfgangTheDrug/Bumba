@@ -4,7 +4,12 @@ import Fruit from "../../Fruit/Fruit.js"
 function ForageCard() {
   return (
       <UbiquitousCard
-        fruit = {<Fruit name="🍎"/>}
+        fruit = {
+            <Fruit
+                name = "🍎"
+                className = "p-2 h-100"
+            />
+        }
         search= {
             <form>
                 <input

@@ -31,13 +31,13 @@ const Hop = keyframes`
 `;
 
 const SwingP = styled.p`
-    font-size: 20rem;
+    font-size: 18rem;
     animation: ${Hop} 5s linear infinite;
 `;
 
 function Fruit(props) {
   return (
-    <SwingP> { props.name }  </SwingP>
+    <SwingP className = {props.className}> { props.name }  </SwingP>
   );
 }
 

@@ -1,15 +1,9 @@
-import styled from 'styled-components';
-
-const Card = styled.article`
-    max-width: 90%;
-`;
-
 function UbiquitousCard(props) {
   return (
-      <Card>
+      <article className="d-flex flex-column align-items-center h-50 ">
         {props.search}
         {props.fruit}
-      </Card>
+      </article>
   );
 }
 

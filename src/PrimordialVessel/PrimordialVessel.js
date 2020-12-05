@@ -10,6 +10,17 @@ const RubberP = styled.p`
     animation: 1s ${ rubberAnimation };
 `;
 
+let count = "forage";
+let el;
+
+if(count === "flounder") {
+    el = <FlounderCard/>
+} else if (count === "forage") {
+    el = <ForageCard/>
+} else if (count === "success") {
+    el = <SuccesfullInquiryCard/>
+}
+
 function PrimordialVessel() {
   return (
     <main className="container d-flex flex-column" style={{"height":"100vh"}}>
@@ -20,10 +31,8 @@ function PrimordialVessel() {
             </h1>
         </header>
 
-        <section className="p-2 flex-fill align-self-stretch">
-            <FlounderCard/>
-            <ForageCard/>
-            <SuccesfullInquiryCard/>
+        <section className="p-2 flex-fill align-self-stretch align-middle">
+            {el}
         </section>
 
         <footer>

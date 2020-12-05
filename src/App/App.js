@@ -5,9 +5,9 @@ import Loading from "../Loading/Loading.js";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="wrapper">
         <Loading />
-      </header>
+      </div>
     </div>
   );
 }

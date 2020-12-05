@@ -7,6 +7,8 @@
     - Sketchpad
     - babel
     - styled-components
+    - react-animations
+
 
 ## Icons and logos
 

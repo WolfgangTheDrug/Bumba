@@ -8,6 +8,7 @@
     - babel
     - styled-components
     - react-animations
+    - canvasJS
 
 
 ## Icons and logos
@@ -22,6 +23,10 @@ The loading screen was based on [Dan Halperin's tutorial](https://medium.com/fro
 
 The styling was made mainly using bootstrap.
 Also we used [styled-components](https://styled-components.com/) supported by [babel-plugin-styled-components](https://github.com/styled-components/babel-plugin-styled-components) in order to easily access gorgeous [react-animations](https://www.npmjs.com/package/react-animations) package.
+
+## Charts
+
+Charts are generated using [chartJS](https://canvasjs.com/) library for react.
 
 # Getting Started with Create React App
 

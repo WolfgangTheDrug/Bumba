@@ -10,7 +10,7 @@ const RubberP = styled.p`
     animation: 1s ${ rubberAnimation };
 `;
 
-let count = "forage"; // do dokończenia
+let count = "success"; // do dokończenia
 let el;
 
 if(count === "flounder") {
@@ -23,7 +23,7 @@ if(count === "flounder") {
 
 function PrimordialVessel() {
   return (
-    <main className="container d-flex flex-column" style={{"height":"100vh"}}>
+    <main className="container d-flex flex-column flex-fill" style={{"height":"100vh"}}>
         <header className="page-header p-2 align-self-start container">
             <h1>
                 <RubberP> bumba </RubberP>
